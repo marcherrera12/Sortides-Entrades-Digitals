@@ -42,7 +42,7 @@ void loop()
     // Si el polasdor esta apretat
   if (digitalRead(polsador) == LOW)
   {// Esta apretat
-    // Activem els LED's
+    // Actuem sobre els Led's
     digitalWrite(ledVermell1, HIGH);
     digitalWrite(ledVermell2, LOW);
     digitalWrite(ledVermell3, HIGH);
@@ -54,6 +54,7 @@ void loop()
    
     delay(1000);
     
+    // Actuem sobre els LED's
     digitalWrite(ledVermell1, LOW);
     digitalWrite(ledVermell2, HIGH);
     digitalWrite(ledVermell3, LOW);
@@ -65,9 +66,9 @@ void loop()
 
   delay(1000);
   }
-
+  // Si el polsador està parat
   else (digitalRead(polsador) == HIGH);
-
+    // Els LED's s'apaguen
     digitalWrite(ledVermell1, LOW);
     digitalWrite(ledVermell2, LOW);
     digitalWrite(ledVermell3, LOW);
