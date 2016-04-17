@@ -16,7 +16,6 @@ int d = 12;
 int e = 13;
 int f = 14;
 int g = 15;
-int h = 16;
 int p = 3;
 
 const int ledPin[] = {5, 6, 7, 8};
