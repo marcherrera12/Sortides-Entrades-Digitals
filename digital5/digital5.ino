@@ -36,7 +36,7 @@ void setup()
   pinMode(led8, OUTPUT);
   pinMode(led9, OUTPUT);
 
-  //fbfdbfbngfngfnfgnf
+  //Configració del pins d'entrada
 
   pinMode(trans1, INPUT);
   pinMode(trans2, INPUT);
